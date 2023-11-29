@@ -1,0 +1,44 @@
+[INFO]  Set device[0] success
+[INFO]  Init resource success
+[INFO]  Set input[0] from test_data/data/input_0.bin success.
+[INFO]  Input[0]:
+         1        66        37         1        88        76        48        57        12        56        77        77        18         7        78        57
+        97         5        53        16        26        26        79        31        87         9        39        46        49        42        78         8
+         5        19         8        81        17        51        48        26        10        79        42        50        66        96        79        11
+        50        23        46        71         1        77        68        69         2        97        73        19        85        44        64        59
+        93        39        99         5        32        27        42        66        23        61        38        14        69        77        86        57
+        95        68        26        27        42        42        92        81        69        44        70        95        17        34        38        44
+        16        42        81        53        84        38        94        19        44        69        99        42        16        22        48        48
+        60         0        82        30        99        11        29        47         5        52        25        84        55        50        28        53
+[INFO]  Set input[1] from test_data/data/input_1.bin success.
+[INFO]  Input[1]:
+        20        81        52        48        30        70        14        20         1        84        97         7        89        62        19        32
+        46        85        64        54        33         7        95        15        84        60        73        76        10        15        67        74
+         0        90        84        74        76        67        84        31        37        91        13        43        29        83        22        45
+        14        54        58        38        96        44        34         0        57        10        60        32        95        24        57        78
+        35        74        73        21        49        60        38        17        63        52        11        13        95        72         6        68
+        12        13        76        34        28        38        57        80        33        12        39         1         9        16        78        44
+        59        47        49         0        78        17         2        81        24        90        83        19        52        92        11        26
+        95        68        75        75        24         9         4        64        48        78        16        66         7        87        51         7
+[INFO]  compile static op Add success
+[INFO]  Copy input[0] success
+[INFO]  Copy input[1] success
+[INFO]  Create stream success
+512
+512
+0
+[INFO]  Execute Add success
+[INFO]  Synchronize stream success
+[INFO]  Copy output[0] success
+[INFO]  Output[0]:
+        21       147        89        49       118       146        62        77        13       140       174        84       107        69        97        89
+       143        90       117        70        59        33       174        46       171        69       112       122        59        57       145        82
+         5       109        92       155        93       118       132        57        47       170        55        93        95       179       101        56
+        64        77       104       109        97       121       102        69        59       107       133        51       180        68       121       137
+       128       113       172        26        81        87        80        83        86       113        49        27       164       149        92       125
+       107        81       102        61        70        80       149       161       102        56       109        96        26        50       116        88
+        75        89       130        53       162        55        96       100        68       159       182        61        68       114        59        74
+       155        68       157       105       123        20        33       111        53       130        41       150        62       137        79        60
+[INFO]  Write output[0] success. output file = result_files/output_0.bin
+[INFO]  Run op success
+[INFO]  Destory resource success

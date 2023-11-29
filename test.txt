@@ -1,0 +1,9 @@
+
+nvcc --shared -Xcompiler -fPIC -o add.so add.cu
+
+
+
+
+
+
+print("hello World")
